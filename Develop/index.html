@@ -18,7 +18,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
@@ -29,10 +29,58 @@
       <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
-      <!-- Timeblocks go here -->
+        <!-- Timeblocks go here -->
+      <ol>
+        <li class="row time-block">
+          <p class="hour col-1" id="9am">9AM</p>
+          <textarea class="col-10 description text-area"></textarea>
+          <button id="9" class="saveBtn col-1"><i class="fas fa-save ml-3 mr-3"></i></button>
+        </li>
+        <li class="row time-block">
+          <p class="hour col-1" id="10am">10AM</p>
+          <textarea class="col-10 description text-area"></textarea>
+          <button id="10" class="saveBtn col-1"><i class="fas fa-save ml-3 mr-3"></i></button>
+        </li>
+        <li class="row time-block">
+          <p class="hour col-1" id="11am">11AM</p>
+          <textarea class="col-10 description text-area"></textarea>
+          <button id="11" class="saveBtn col-1"><i class="fas fa-save ml-3 mr-3"></i></button>
+        </li>
+        <li class="row time-block">
+          <p class="hour col-1" id="12pm">12PM</p>
+          <textarea class="col-10 description text-area"></textarea>
+          <button id="12" class="saveBtn col-1"><i class="fas fa-save ml-3 mr-3"></i></button>
+        </li>
+        <li class="row time-block">
+          <p class="hour col-1" id="1pm">1PM</p>
+          <textarea class="col-10 description text-area"></textarea>
+          <button id="13" class="saveBtn col-1"><i class="fas fa-save ml-3 mr-3"></i></button>
+        </li>
+        <li class="row time-block">
+          <p class="hour col-1" id="2pm">2PM</p>
+          <textarea class="col-10 description text-area"></textarea>
+          <button id="14" class="saveBtn col-1"><i class="fas fa-save ml-3 mr-3"></i></button>
+        </li>
+        <li class="row time-block">
+          <p class="hour col-1" id="3pm">3PM</p>
+          <textarea class="col-10 description text-area"></textarea>
+          <button id="15" class="saveBtn col-1"><i class="fas fa-save ml-3 mr-3"></i></button>
+        </li>
+        <li class="row time-block">
+          <p class="hour col-1" id="4pm">4PM</p>
+          <textarea class="col-10 description text-area"></textarea>
+          <button id="16" class="saveBtn col-1"><i class="fas fa-save ml-3 mr-3"></i></button>
+        </li>
+               <li class="row time-block">
+          <p class="hour col-1" id="5pm">5PM</p>
+          <textarea class="col-10 description text-area"></textarea>
+          <button id="17" class="saveBtn col-1"><i class="fas fa-save ml-3 mr-3"></i></button>
+        </li>
+      </ol>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>
