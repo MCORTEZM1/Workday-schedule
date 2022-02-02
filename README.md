@@ -14,5 +14,5 @@ You will find this application to be a practical day planner to help you get thr
 Enjoy, 
 
 
-![Alt text](./develop/assets/images/workday-schedule.PNG "workdaySchedule")
-![Alt text](./develop/assets/images/Working-storage.PNG "workingStorage")
+![Alt text](./assets/images/workday-schedule.PNG "workdaySchedule")
+![Alt text](./assets/images/Working-storage.PNG "workingStorage")
